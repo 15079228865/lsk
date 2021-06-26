@@ -1,0 +1,154 @@
+        /* 列表页css */
+        
+        .nav {
+            overflow: hidden;
+        }
+        
+        .sk {
+            position: absolute;
+            left: 190px;
+            top: 40px;
+            border-left: 1px solid #c81523;
+            padding: 3px 0 0 14px;
+        }
+        
+        .sk_list {
+            float: left;
+        }
+        
+        .sk_list ul li {
+            float: left;
+        }
+        
+        .sk_list ul li a {
+            display: block;
+            line-height: 47px;
+            padding: 0 30px;
+            font-size: 16px;
+            font-weight: 700;
+            color: #000;
+        }
+        
+        .sk_con {
+            float: left;
+        }
+        
+        .sk_con ul li {
+            float: left;
+        }
+        
+        .sk_con ul li a {
+            display: block;
+            line-height: 49px;
+            padding: 0 20px;
+            font-size: 14px;
+        }
+        
+        .sk_con ul li:last-child a::after {
+            font-family: 'icomoon';
+            content: '\ea50';
+        }
+        /* 卖苹果手机的过度地方 */
+        
+        .sk_bd ul .guodu {
+            overflow: hidden;
+            float: left;
+            margin-right: 13px;
+            overflow: hidden;
+            width: 290px;
+            height: 460px;
+            border: 1px solid transparent;
+        }
+        
+        .sk_bd ul .guodu:nth-child(4n) {
+            margin-right: 0;
+        }
+        
+        .sk_bd ul .guodu:hover {
+            border: 1px solid #c81523;
+        }
+        
+        .guodu img {
+            width: 123px;
+            height: 249px;
+            margin-left: 83px;
+            margin-top: 20px;
+        }
+        
+        .xia {
+            color: #666;
+            margin-top: 25px;
+            font-size: 14px;
+            padding-left: 8px;
+        }
+        
+        .xia2,
+        .xia3 {
+            padding-left: 8px;
+            margin-top: 8px;
+        }
+        
+        .xia2 h4 {
+            color: #b1181a;
+            font-size: 20px;
+        }
+        
+        .xia2 h4 span {
+            color: #666;
+            text-decoration: line-through;
+            font-size: 14px;
+        }
+        
+        .xia3 {
+            height: 11px;
+        }
+        
+        .xia3 h6,
+        .xia3 p {
+            float: left;
+            color: #666;
+            font-size: 14px;
+        }
+        
+        .xia3 h6 span {
+            float: left;
+        }
+        
+        .xia3 .sp1 {
+            color: #b1181a;
+        }
+        
+        .guodu1 {
+            display: block;
+            float: left;
+            width: 135px;
+            height: 15px;
+            border: 1px solid #b1181a;
+            border-radius: 7px;
+            padding: 1px;
+        }
+        
+        .guodu2 {
+            display: block;
+            width: 70px;
+            height: 100%;
+            background-color: #b1181a;
+            border-radius: 7px;
+            transition: all 0.7s;
+        }
+        
+        .guodu1:hover .guodu2 {
+            width: 100%;
+        }
+        
+        .xia4 {
+            display: block;
+            margin-top: 15px;
+            height: 50px;
+            width: 290px;
+            background-color: #b1181a;
+            text-align: center;
+            line-height: 50px;
+            color: #fff;
+            font-size: 20px;
+        }
